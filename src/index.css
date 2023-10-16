@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app {
+  font-family: "gilroy";
+}
+
+.red {
+  background-color: #eb6666;
+  position: absolute;
+  right: 0;
+  top: 300px;
+  height: 250px;
+  width: 200px;
+}
+
+.img-scale:hover {
+  scale: 1.2;
+  transition: all 0.3s ease-in-out;
+}
