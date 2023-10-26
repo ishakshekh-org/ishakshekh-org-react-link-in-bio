@@ -11,8 +11,26 @@ import {
 const data = [
 {
     img: instagram,
-    src: "#"
-}
+    src: "https://www.instagram.com/ishak_shekh_/"
+} ,
+{
+    img: facebook,
+    src: "https://www.facebook.com/profile.php?id=100085857733469"
+} ,
+{
+    img: snapchat,
+    src: "https://www.snapchat.com/add/its_ishak90?share_id=HIfk2J1yQpU&locale=en-IN"
+}, 
+{
+    img: spotify,
+    src: "https://open.spotify.com/user/31gf5qq4i4n2rtvwbar6n7ilpxk4?si=L7WLjRfDRkSQIF1i0T9Quw&nd=1"
+}, 
+{
+    img: twitter,
+    src: "https://twitter.com/Ishak_Shekh_?t=fa_QxmMpaQknqGntVEgZww&s=09"
+}, 
+
+
 ];
 
 const NavPart = () => {
@@ -33,7 +51,7 @@ const NavPart = () => {
         />
         <Navbar
           img={twiiter}
-          src="httpshttps://twitter.com/Ishak_Shekh_?t=fa_QxmMpaQknqGntVEgZww&s=09"
+          src="https://twitter.com/Ishak_Shekh_?t=fa_QxmMpaQknqGntVEgZww&s=09"
         />
         <Navbar
           img={spotify}
