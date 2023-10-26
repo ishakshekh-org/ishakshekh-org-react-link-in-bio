@@ -8,10 +8,18 @@ import {
   twiiter,
 } from "../assets/icons";
 
+const data = [
+{
+    img: instagram,
+    src: "#"
+}
+];
+
 const NavPart = () => {
   return (
     <div className="flex justify-center items-center sm:w-fit m-auto my-3 p-4 sm:px-5 bg-[#e6e9f3]  border-2 shadow-inner rounded-full ">
       <ul className="flex justify-evenly w-full sm:justify-evenly gap-3">
+{/*
         <Navbar img={instagram} src="https://www.instagram.com/ishak_shekh_/" />
         <Navbar
           img={facebook}
@@ -31,6 +39,14 @@ const NavPart = () => {
           img={spotify}
           src="https://open.spotify.com/user/31gf5qq4i4n2rtvwbar6n7ilpxk4?si=L7WLjRfDRkSQIF1i0T9Quw&nd=1"
         />
+
+*/}
+
+    {data.map(item => (
+          <Navbar
+            img={item.img} src={item.src}
+        />
+))}
       </ul>
     </div>
   );
