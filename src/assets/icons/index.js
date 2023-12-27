@@ -6,6 +6,7 @@ import sushi from "./shushi.png";
 import snapchat from "./snapchat.svg";
 import spotify from "./spotify.svg";
 import twiiter from "./twitter.svg";
+import quote from "./quote.png";
 
 export {
   facebook,
@@ -16,4 +17,5 @@ export {
   snapchat,
   spotify,
   twiiter,
+  quote,
 };
